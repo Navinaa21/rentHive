@@ -1,0 +1,60 @@
+.card {
+    border-radius: 10px;
+    background-color: aliceblue;
+    overflow: hidden;
+    height: 9cm;
+    margin-bottom: 20px;
+    flex: 0 0 calc(25% - 20px); /* Make each card take up one-quarter of the container width, minus some margin */
+    margin: 10px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    object-fit: cover;
+    width: 100%;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    text-align: center;
+    background-color: orange;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-description {
+    font-size:large;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .cards-container {
+    display: flex;
+    margin-bottom: 2.5cm;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if there's not enough space */
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .card {
+    flex: 0 0 calc(25% - 20px); /* Make each card take up one-third of the container width, minus some margin */
+    margin: 10px; /* Add some margin around each card */
+  }
+  
+  .find-home{
+    text-align: center;
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+ .ft{
+  cursor: pointer;
+ }
